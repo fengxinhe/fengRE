@@ -1,0 +1,13 @@
+f=imread('/Users/dingpeien/Desktop/学校活动/数字图像处理-李宏宇/ssegray.bmp'); 
+%figure;
+%imshow(f);
+figure;
+subplot(221)
+imshow(f);
+subplot(222)
+myimhist(f);
+I=myhisteq(f);
+subplot(223)
+imshow(I);
+subplot(224)
+myimhist(I);
